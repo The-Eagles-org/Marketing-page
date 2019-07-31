@@ -3,13 +3,25 @@ body{
 }
 
 header{
-    height:120px;
+    height:100px;
     width:100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     box-sizing: border-box;
-    padding: 20px 10px 0 10px;
 }
+
+
+@media(max-width:500px){
+    header{
+        width:100%;
+        margin-top: 10px;
+        flex-direction: column;
+        // background-color: antiquewhite;
+        padding:100px;
+        
+    }   
+}
+
 
