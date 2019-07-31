@@ -146,9 +146,11 @@ header {
     padding: 100px;
   }
 }
+header {
+  padding: 30px 10px;
+}
 .img {
-  height: 100px;
-  width: 220px;
+  width: 200px;
 }
 .menu ul {
   width: 100%;
@@ -213,7 +215,7 @@ a:hover {
   }
 }
 .search-your-wedding {
-  background-image: url("C:/projects/Wedding-planner/Marketing-page/images/cofee.jpg");
+  background-image: url("../images/cofee.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
