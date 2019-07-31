@@ -5,28 +5,28 @@
     background-size: cover;
     position: relative;
     background-size: 100% 100%;
-    height: 400px;
+    height: 350px;
 }
 
 .search-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-   padding-right: 300px;
 }
 
 
 .search-container h1{
     font-size: 5rem;
-    color: rgb(175, 175, 175);;
+    // color: rgb(175, 175, 175);
+    color: rgba(45, 87, 4, 0.719);
     font-weight: bolder;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .search-container p{
     font-size: 1.3rem;
     font-weight: bolder;
-    color: rgb(175, 175, 175);
+    color: rgb(45, 87, 4);
     padding-top: 10px;
 }
 
@@ -56,4 +56,37 @@
 
 .input button:hover{
     box-shadow: 1px 1px 1px 1px rgb(250, 127, 193);
+}
+
+
+
+@media(max-width:800px){
+    .search-your-wedding{
+        height: 240px;
+    }
+
+    .search-container h1{
+        font-size: 3.8rem;
+        font-weight: bolder;
+        padding-top: 50px;
+    }
+
+    .search-container p{
+        font-size: 1rem;
+        font-weight: bold;
+        
+    }
+
+    .input input{
+        height: 35px;
+        width: 380px;
+        font-size: 1rem;      
+    }
+
+    .input button{
+        height: 35px;
+        width:100px; 
+        font-weight: bold;
+    }
+    
 }

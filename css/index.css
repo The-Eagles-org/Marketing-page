@@ -130,24 +130,31 @@ body {
   font-size: 62.5%;
 }
 header {
-  height: 120px;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   box-sizing: border-box;
-  padding: 20px 10px 0 10px;
+}
+@media (max-width: 500px) {
+  header {
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 100px;
+  }
 }
 .img {
-  height: 120px;
-  width: 260px;
+  height: 100px;
+  width: 220px;
 }
-.menu {
-  width: 63%;
+.menu ul {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .menu a {
   text-decoration: none;
@@ -155,22 +162,55 @@ header {
   font-size: 0.8rem;
   font-weight: bolder;
   box-sizing: border-box;
-  padding-right: 3px;
+  padding-right: 50px;
 }
 .login a {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bolder;
-  color: 63D0EE;
+  color: #63D0EE;
   padding-right: 20px;
 }
 a:hover {
-  color: 63D0EE;
+  color: #63D0EE;
 }
 .f-line {
   width: 100%;
   border: 0.7px solid #cfcdcd;
   margin-top: 10px;
+}
+@media (max-width: 800px) {
+  .img {
+    height: 80px;
+    width: 200px;
+  }
+  .menu a {
+    font-size: 0.6rem;
+    padding-right: 15px;
+  }
+  .login a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .img {
+    height: 70px;
+    width: 200px;
+    align-items: center;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu li a {
+    font-size: 1.3rem;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-right: 0px;
+    border: 1px solid black;
+  }
 }
 .search-your-wedding {
   background-image: url("C:/projects/Wedding-planner/Marketing-page/images/cofee.jpg");
@@ -179,24 +219,23 @@ a:hover {
   background-size: cover;
   position: relative;
   background-size: 100% 100%;
-  height: 400px;
+  height: 350px;
 }
 .search-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 300px;
 }
 .search-container h1 {
   font-size: 5rem;
-  color: #afafaf;
+  color: rgba(45, 87, 4, 0.719);
   font-weight: bolder;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .search-container p {
   font-size: 1.3rem;
   font-weight: bolder;
-  color: #afafaf;
+  color: #2d5704;
   padding-top: 10px;
 }
 .input input {
@@ -222,4 +261,28 @@ a:hover {
 }
 .input button:hover {
   box-shadow: 1px 1px 1px 1px #fa7fc1;
+}
+@media (max-width: 800px) {
+  .search-your-wedding {
+    height: 240px;
+  }
+  .search-container h1 {
+    font-size: 3.8rem;
+    font-weight: bolder;
+    padding-top: 50px;
+  }
+  .search-container p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .input input {
+    height: 35px;
+    width: 380px;
+    font-size: 1rem;
+  }
+  .input button {
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+  }
 }
