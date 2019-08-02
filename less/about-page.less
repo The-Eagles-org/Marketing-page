@@ -22,12 +22,18 @@
 .box-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 90%;
   margin: 0 auto;
   padding: 25px 0px;
 
+  h3 {
+    font-size: 1.3rem;
+  }
+
   @media(max-width: 800px){
     width: 95%;
+    flex-direction: column;
   }
 
   @media(max-width: 500px) {
@@ -37,20 +43,25 @@
 }
 
 .content-box {
-  box-shadow: 0px 0px 10px 2px #ccc;
   font-size: 0.95rem;
   width: 45%;
   padding: 10px;
   text-align: center;
 
   @media(max-width: 800px){
-
+    width: 100%;
+    padding-bottom: 25px;
   }
 
   @media(max-width: 500px){
-    margin-bottom: 20px;
     width: 100%;
   }
+}
+
+.content-box img {
+  max-width: 300px;
+  border-radius: 50%;
+  padding-bottom: 15px;
 }
 
 .item-wrap {
@@ -68,8 +79,24 @@
   color: black;
 }
 
+.content-box p {
+
+  @media(max-width: 800px){
+    padding-top: 20px;
+  }
+}
+
 .final-content{
   display: flex;
+  flex-direction: column;
+  text-align: center;
   width: 90%;
   margin: 0 auto;
+  padding-top: 20px;
+
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+  }
+
 }
