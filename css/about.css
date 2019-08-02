@@ -204,7 +204,7 @@ header {
 }
 @media (max-width: 600px) {
   .menu a {
-    padding: 10px 13px;
+    padding: 10px 10px;
   }
 }
 @media (max-width: 500px) {
@@ -313,9 +313,43 @@ header {
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  padding-top: 20px;
+  padding: 30px 0px;
 }
 .final-content h3 {
   font-size: 2rem;
   padding-bottom: 20px;
+}
+footer {
+  width: 100%;
+  background-color: #E0E0E0;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+@media (max-width: 800px) {
+  footer ul {
+    padding: 20px 25px;
+  }
+}
+@media (max-width: 500px) {
+  footer ul {
+    flex-direction: column;
+  }
+}
+footer ul a {
+  text-decoration: none;
+  color: black;
+  padding: 4px 10px;
+}
+footer ul a:hover {
+  color: white;
+}
+footer .copyright {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
