@@ -126,19 +126,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  width: 99%;
-  margin: 0 auto;
-  font-size: 100%;
-}
 .header-wrap {
   width: 100%;
   border-bottom: 2px solid #E0E0E0;
-}
-@media (max-width: 500px) {
-  .header-wrap {
-    border-bottom: none;
-  }
 }
 header {
   width: 90%;
@@ -227,95 +217,4 @@ header {
   .menu a:hover {
     padding: 15px 0px;
   }
-}
-.about-page {
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-.about-statement {
-  text-align: center;
-  padding: 20px;
-  background-color: #E0E0E0;
-}
-.about-statement h3 {
-  font-size: 2rem;
-  padding-bottom: 20px;
-}
-.about-statement p {
-  font-size: 1.3rem;
-}
-.box-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-  padding: 25px 0px;
-}
-.box-container h3 {
-  font-size: 1.3rem;
-}
-@media (max-width: 800px) {
-  .box-container {
-    width: 95%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 500px) {
-  .box-container {
-    flex-direction: column;
-  }
-}
-.content-box {
-  font-size: 0.95rem;
-  width: 45%;
-  padding: 10px;
-  text-align: center;
-}
-@media (max-width: 800px) {
-  .content-box {
-    width: 100%;
-    padding-bottom: 25px;
-  }
-}
-@media (max-width: 500px) {
-  .content-box {
-    width: 100%;
-  }
-}
-.content-box img {
-  max-width: 300px;
-  border-radius: 50%;
-  padding-bottom: 15px;
-}
-.item-wrap {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
-  font-size: 1rem;
-}
-.content-box a {
-  text-decoration: none;
-  color: black;
-}
-@media (max-width: 800px) {
-  .content-box p {
-    padding-top: 20px;
-  }
-}
-.final-content {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 20px;
-}
-.final-content h3 {
-  font-size: 2rem;
-  padding-bottom: 20px;
 }
