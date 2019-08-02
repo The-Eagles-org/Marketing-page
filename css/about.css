@@ -127,6 +127,8 @@ table {
   border-spacing: 0;
 }
 body {
+  width: 99%;
+  margin: 0 auto;
   font-size: 100%;
 }
 .header-wrap {
@@ -234,7 +236,7 @@ header {
 .about-statement {
   text-align: center;
   padding: 20px;
-  background-color: grey;
+  background-color: #E0E0E0;
 }
 .about-statement h3 {
   font-size: 2rem;

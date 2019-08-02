@@ -127,6 +127,8 @@ table {
   border-spacing: 0;
 }
 body {
+  width: 99%;
+  margin: 0 auto;
   font-size: 100%;
 }
 .header-wrap {
@@ -377,4 +379,9 @@ header {
   width: 87%;
   display: flex;
   margin: 0 auto;
+}
+.f-line {
+  width: 99.9%;
+  border: 0.7px solid #cfcdcd;
+  margin: 60px 0 60px 0;
 }
