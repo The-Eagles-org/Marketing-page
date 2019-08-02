@@ -163,8 +163,13 @@ header {
   }
 }
 .img {
+<<<<<<< HEAD
   width: 200px;
   padding-right: 20px;
+=======
+  height: 80px;
+  width: 180px;
+>>>>>>> origin/master
 }
 @media (max-width: 800px) {
   .img {
@@ -187,17 +192,48 @@ header {
 }
 .menu a p {
   color: black;
+<<<<<<< HEAD
+=======
+  font-size: 0.8rem;
+  font-weight: bolder;
+  box-sizing: border-box;
+  padding-right: 75px;
+>>>>>>> origin/master
 }
 .menu a {
   transition: all 0.5s ease;
   color: black;
   text-decoration: none;
+<<<<<<< HEAD
   padding: 10px 15px;
   border-radius: 10px;
 }
 @media (max-width: 800px) {
   .menu a {
     padding: 10px 20px;
+=======
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #63D0EE;
+  padding-right: 20px;
+}
+a:hover {
+  color: #63D0EE;
+}
+.f-line {
+  width: 99.9%;
+  border: 0.7px solid #cfcdcd;
+  margin: 60px 0 60px 0;
+}
+@media (max-width: 800px) {
+  .img {
+    height: 60px;
+    width: 160px;
+  }
+  .menu a {
+    font-size: 0.6rem;
+    padding-right: 20px;
+>>>>>>> origin/master
   }
 }
 @media (max-width: 600px) {
@@ -227,7 +263,7 @@ header {
   }
 }
 .search-your-wedding {
-  background-image: url("../images/cofee.jpg");
+  background-image: url("C:/projects/Wedding-planner/Marketing-page/images/cofee.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,15 +283,16 @@ header {
 }
 .search-container h1 {
   font-size: 5rem;
-  color: rgba(45, 87, 4, 0.719);
+  color: rgba(184, 157, 2, 0.712);
   font-weight: bolder;
   padding-top: 80px;
 }
 .search-container p {
   font-size: 1.3rem;
   font-weight: bolder;
-  color: #2d5704;
-  padding-top: 10px;
+  color: #b89c02;
+  background-color: rgba(255, 255, 255, 0.671);
+  margin-top: 20px;
 }
 .input input {
   height: 42px;
@@ -304,4 +341,79 @@ header {
     width: 100px;
     font-weight: bold;
   }
+}
+.wedding-dresses h1 {
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 60px 0 30px 0;
+  font-family: great vibes ;
+}
+.wedding-dresses p {
+  font-size: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+  font-family: grenze;
+  color: gray;
+}
+.dresses {
+  width: 92%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+.design :last-child {
+  height: 230px;
+  width: 160px;
+}
+.design :first-child {
+  height: 230px;
+  width: 160px;
+}
+.design {
+  position: relative;
+  height: 230px;
+  border: 5px outset #9edada;
+  margin: 20px 15px 25px 15px;
+}
+.design a {
+  position: relative;
+  height: 250px;
+  width: 400px;
+}
+.design img {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.design img.top:hover {
+  opacity: 0;
+}
+.design .item-num p {
+  font-size: 1.4rem;
+  text-align: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 10px;
+}
+.etiquette h2 {
+  font-size: 1.5rem;
+  color: gray;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.vid1 {
+  height: 400px;
+  width: 87%;
+  display: flex;
+  margin: 0 auto;
 }
