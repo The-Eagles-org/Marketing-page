@@ -12,3 +12,4 @@ function disableAutoplay() {
 function checkAutoplay() { 
   alert(vid.autoplay);
 } 
+
